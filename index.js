@@ -1,6 +1,5 @@
 // index.js
 require('dotenv-vault-core').config()
-console.log(process.env) // for debugging purposes. remove when ready.
 
 const PORT = process.env.PORT || 8080
 const express = require('express')
